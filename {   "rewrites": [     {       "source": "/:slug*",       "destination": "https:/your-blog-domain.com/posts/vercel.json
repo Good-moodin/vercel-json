@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    {
+      "source": "/:slug*",
+      "destination": "https://hollytrends.online/posts/:slug",
+      "statusCode": 301
+    }
+  ]
+}
